@@ -9,7 +9,7 @@ $svn_list_xml = dirname(__FILE__) . "/resources/svn_list.xml";
 $file_logs = simplexml_load_file($svn_logs_xml);
 $file_list = simplexml_load_file($svn_list_xml);
 
-$list = $file_list->lists->list;
+$list = $file_list->list;
 $path = $list['path'];
 foreach ($list->entry as $entry) {
     $kind = $entry['kind'];
