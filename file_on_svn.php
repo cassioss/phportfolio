@@ -5,7 +5,8 @@
  *
  * User: Cassio dos Santos Sousa
  */
-class FileOnSVN {
+class FileOnSVN
+{
     var $path;
     var $kind;
     var $name;
@@ -14,7 +15,19 @@ class FileOnSVN {
     var $author;
     var $date;
 
-    function FileOnSVN($path, $kind, $name, $size, $revision, $author, $date){
+    /**
+     * Initializes an object that keeps track of every data from a file (or folder).
+     *
+     * @param $path
+     * @param $kind
+     * @param $name
+     * @param $size
+     * @param $revision
+     * @param $author
+     * @param $date
+     */
+    function FileOnSVN($path, $kind, $name, $size, $revision, $author, $date)
+    {
         $this->path = $path;
         $this->kind = $kind;
         $this->name = $name;
