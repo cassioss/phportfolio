@@ -1,13 +1,16 @@
 <?php
+    
+    // Creates an array for both files and projects
+    $files_array = array();
+    $projects_array = array();
+    
+    require('file.php');
+    
     echo "SVN log data<br><hr><br>";
     
-    // Path for the needed XML files
-    $svn_logs_xml = dirname(__FILE__) . "/resources/svn_log.xml";
-    $svn_list_xml = dirname(__FILE__) . "/resources/svn_list.xml";
-    
     // Loads each one of the files
-    $file_logs = simplexml_load_file($svn_logs_xml);
-    $file_list = simplexml_load_file($svn_list_xml);
+    $file_logs = simplexml_load_file('resources/svn_log.xml');
+    $file_list = simplexml_load_file('resources/svn_list.xml');
     
     // Parses SVN log file
     foreach ($file_logs->logentry as $logentry) {
@@ -18,9 +21,13 @@
             foreach ($paths->path as $path) {
                 $action = $path['action'];
                 $kind = $path['kind'];
-                $content = (string)$path;
+                $content = $path;
     
                 echo "$revision<br>$date<br>$msg<br>$date<br>$action<br>$kind<br>$content<br><br>";
+                $divided_path = explode("/", $content);
+                if(sizeof($divided_path) == 3){
+                        
+                }
             }
         }
     }

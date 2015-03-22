@@ -24,7 +24,7 @@
          * @param $author
          * @param $date
          */
-        function File($path, $kind, $name, $size, $revision, $author, $date)
+        function __construct($path, $kind, $name, $size, $revision, $author, $date)
         {
             $this->path = $path;
             $this->kind = $kind;
