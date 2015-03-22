@@ -1,5 +1,5 @@
 <?php
-    echo "I got in<br>";
+    echo "SVN log data<br><hr><br>";
     
     // Path for the needed XML files
     $svn_logs_xml = dirname(__FILE__) . "/resources/svn_log.xml";
@@ -9,23 +9,7 @@
     $file_logs = simplexml_load_file($svn_logs_xml);
     $file_list = simplexml_load_file($svn_list_xml);
     
-    $list = $file_list->list;
-    $path = $list['path'];
-    
-    /*foreach ($list->entry as $entry) {
-        $kind = $entry['kind'];
-        $name = $entry->name;
-        $revision = $entry->commit['revision'];
-        $author = $entry->commit->author;
-        $date = $entry->commit->date;
-        echo "$path<br>$kind<br>$name<br>$revision<br>$author<br>$date<br>";
-        if ($kind == 'dir') {
-            $size = $entry->size;
-            echo "$size<br>";
-        }
-        echo "<br>";
-    }*/
-    
+    // Parses SVN log file
     foreach ($file_logs->logentry as $logentry) {
         $revision = $logentry['revision'];
         $date = date('m/d/Y', strtotime((string)$logentry->date));
