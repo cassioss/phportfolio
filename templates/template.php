@@ -17,13 +17,14 @@
          * @param $revision
          * @param $author
          * @param $date
+         * @param $message
          */
-        function Template($name, $revision, $author, $date, $message)
+        function __construct($name, $revision, $author, $date, $message)
         {
             $this->name = $name;
             $this->revision = $revision;
             $this->author = $author;
             $this->date = $date;
-            $this->message = $message
+            $this->message = $message;
         }
     }

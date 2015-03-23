@@ -24,14 +24,11 @@
          * @param $size
          * @param $type
          */
-        function File($name, $revision, $author, $date, $message, $path, $size, $type)
+        function __construct($name, $revision, $author, $date, $message, $path, $size, $type)
         {
-            parent::Template($name, $revision, $author, $date, $message);
+            parent::__construct($name, $revision, $author, $date, $message);
             $this->path = $path;
             $this->size = $size;
             $this->type = $type;
         }
     }
-
-    $abc = new File("a", "b", "c", "d", "e", "f", "g", "h");
-    echo $abc->name;
