@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry revision="4267">
+<author>dssntss2</author>
+<date>2015-03-16T06:31:18.294452Z</date>
+<paths>
+<path kind="dir" action="A">/dssntss2/Assignment2.1</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/CODE_OF_CONDUCT.md</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/Gemfile</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/Gemfile.lock</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/LICENSE.txt</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/README.md</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/Rakefile</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/bin</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/bin/console</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/bin/setup</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/csair.gemspec</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/lib</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/lib/cli</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/lib/cli/cmd_interface.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/cli/query.rb</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/lib/csair</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/csair/version.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/csair.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/lib/model</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/lib/model/dictionary.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/lib/model/graph</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/graph/connection.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/graph/dijkstra.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/graph/graph.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/lib/model/metro</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/metro/all_metros.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/metro/metro.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/lib/model/reader.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/lib/model/resources.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/lib/model/result_json.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/lib/model/writer.rb</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/resources</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/resources/cmi_hub.json</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/resources/map_data.json</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/resources/merged_map_data.json</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/test</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.1/test/cli</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/test/cli/query_test.rb</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/test/model</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/test/model/connection_test.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/test/model/dictionary_test.rb</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.1/test/model/graph</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/test/model/graph/dijkstra_test.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.1/test/model/graph/graph_stats_test.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/test/model/graph/graph_test.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/test/model/graph/map_data_graph_test.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.1/test/model/metro_test.rb</path>
+</paths>
+<msg>Commited Assignment 2.1</msg>
+</logentry>
+<logentry revision="3727">
+<author>dssntss2</author>
+<date>2015-03-09T01:19:43.528261Z</date>
+<paths>
+<path kind="dir" action="A">/dssntss2/Assignment1.2</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/chess</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/chess/controller</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/controller/Game.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/chess/model</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/chess/model/board</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/board/Board.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/board/ChessBoard.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/board/Square.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/chess/model/moves</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/moves/BishopMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/moves/EmpressMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/moves/KingMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/moves/KnightMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/moves/MoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/moves/PawnMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/moves/PrincessMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/moves/QueenMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/moves/RookMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/moves/RoyalMoveSet.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/chess/model/piece</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/piece/Bishop.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/piece/Empress.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/piece/King.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/piece/Knight.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/piece/Pawn.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/piece/Piece.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/piece/Princess.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/model/piece/Queen.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/model/piece/Rook.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/chess/view</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/chess/view/gui</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/gui/BasicInterface.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/gui/ChessInterface.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/chess/view/img</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/black_bishop.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/black_empress.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/black_king.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/black_knight.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/black_pawn.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/black_princess.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/black_queen.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/black_rook.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/white_bishop.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/white_empress.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/white_king.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/white_knight.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/white_pawn.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/white_princess.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/chess/view/img/white_queen.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/chess/view/img/white_rook.png</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/exception</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/exception/AlreadyHasPieceException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/exception/InGameException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/exception/PieceInPlaceException.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/test</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/test/controller</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/controller/GameTest.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/test/model</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/test/model/board</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/board/BoardTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/board/ChessBoardTest.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.2/src/test/model/piece</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/piece/BishopTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/piece/EmpressTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/model/piece/KingTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/model/piece/KnightTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/piece/PawnTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/piece/PieceTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/model/piece/PrincessTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/model/piece/QueenTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/model/piece/RookTest.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/test/suite</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/suite/AllBoardTests.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.2/src/test/suite/AllPieceTests.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/suite/RunAllTests.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.2/src/test/view</path>
+<path kind="file" action="A">/dssntss2/Assignment1.2/src/test/view/ViewTest.java</path>
+</paths>
+<msg>Added Assignment1.2 source code</msg>
+</logentry>
+<logentry revision="3124">
+<author>dssntss2</author>
+<date>2015-02-28T23:26:48.914657Z</date>
+<paths>
+<path action="D" kind="dir">/dssntss2/Assignment2.0/csair/.git</path>
+<path action="D" kind="dir">/dssntss2/Assignment2.0/csair/.idea</path>
+<path kind="file" action="D">/dssntss2/Assignment2.0/csair/Gemfile.lock</path>
+</paths>
+<msg/>
+</logentry>
+<logentry revision="3123">
+<author>dssntss2</author>
+<date>2015-02-28T23:17:38.110219Z</date>
+<paths>
+<path kind="dir" action="A">/dssntss2/Assignment2.0</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/COMMIT_EDITMSG</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/HEAD</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/branches</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/config</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/description</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/hooks</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/applypatch-msg.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/commit-msg.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/post-update.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/pre-applypatch.sample</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/hooks/pre-commit.sample</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/hooks/pre-push.sample</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/hooks/pre-rebase.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/prepare-commit-msg.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/hooks/update.sample</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/index</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/info</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/info/exclude</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/logs</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/logs/HEAD</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/logs/refs</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/logs/refs/heads</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/logs/refs/heads/master</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/logs/refs/remotes</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/logs/refs/remotes/origin</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/logs/refs/remotes/origin/HEAD</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/logs/refs/remotes/origin/master</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/02</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/02/7e4e47aac8ba2fca24e06eecac0379510b892e</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/03</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/03/5314cafb33864cb34966cf23a80d51d10141ce</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/05</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/05/30685cf9addb367425b647f78f4c1624aee131</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/0a</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/0a/f6c1ec665cf28bf9770359188aee3e678a09a0</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/0d</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/0d/dfd813a0b6e445da2ac1c724ae63d07703f1d2</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/0e</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/0e/f187d2a5a950a28c241f3b93a26e76c12bb235</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/15</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/15/3f2f928d80b785841c3d4526e5dcaedbc6276e</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/1b</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/1b/e6953d02a7db9718fa1ba9177c43d0a9562355</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/22</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/22/5187bc309b2c7df8a5bca091f40df92b9d97a0</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/23</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/23/c825d6f13e947e0f74d7e78136e77830167db1</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/25</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/25/8f0c5982c490f0f392437e25ea3c958b91eda0</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/28</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/28/0a07c8e39fe4247c6b01c8018a215be8aea2b3</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/29</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/29/baf017998ad9d2f2265467c1b0207d858f52e6</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/2a</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/2a/b31bf4d275ef69d5cf309845d195124af6ea8f</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/2c</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/2c/49c8d6518527bfb8d5a5c5369e0084105a29e7</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/34</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/34/63d8e73e8eb5fe3cf791db2fd80309d1b6d326</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/35</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/35/2efc36e6c8b4a0cbd000dc037c562f279544ac</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/3e</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/3e/06fd05214548d2ffa0c3a9b84da606dd8959b7</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/3e/acf378b7e3fb7563619115a74a5474baee123c</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/41</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/41/3a0d9e47321c31d232924ae51b695056f96de9</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/41/57750921a70437ea4820129b1803797d2f046c</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/45</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/45/2d03c78ff0911dc91228bd278a04ffb3b4983e</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/46</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/46/8bcbf7c3a9358571aa0b4d51f5917181890ba9</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/49</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/49/400ad433ede2beb1dc257358b1ec4f5c3cac64</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/52</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/52/89d1829cc31ce0a348171adf793593101441eb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/56</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/56/2df189d7279afe2352ece1e2735fa8eb7456ec</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/56/8d0e25b502bd7efd911f66797eb3b8a57ed4ca</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/57</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/57/e661fd8bfe4488e610619da25328f5062f1ba7</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/5b</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/5b/a5c5e688b4dfbfbfc0c492b64adb46bb5dbbe8</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/5c</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/5c/7fa86f72d2e4f7824c5455f4092c3cd64b0ed0</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/62</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/62/908f2dff9576f5964b741b1d6da46c6cbd62e0</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/64</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/64/3cb5e47bbf0a4d6e656196df9cb10b4fe67696</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/6a</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/6a/c4879ca9d29960a3db9ebb003a545000f91045</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/6e</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/6e/79d4277bf2ba11759d83a5fb9c85f302e3565a</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/77</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/77/4b65451f6604d2f7b416ad8e427e218ccf7bc6</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/7a</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/7a/5c20aa201100d2f25971c725a719a6585fb32d</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/7f</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/7f/25480447bba2ec8cbf7ab2b9858dabde714b85</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/82</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/82/02de48cb7d461f93a093272a18c3edc689223e</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/8e</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/8e/43bdc12a922443b2e9613e199fc2f111e8f2cc</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/90</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/90/9f1048f8c681e97b79d92b4300d6708cd6086f</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/96</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/96/bd2867fd4af68f52a2f040190dc8de2c320584</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/9d</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/9d/996d1e6ce8fe157642a1c7160fe36ad71ec680</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/a3</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/a3/cb4975374f46b0c51e4dcd29977a9f8b89037a</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/a6</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/a6/97ab167f8391ca828bc1edad6e62f67b34108a</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ad</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ad/d00ee593b22a13da5f67443828e5210f00b9bf</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/af</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/af/798e5d0312c9c1b478754ee1d214f780267952</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/af/ec69c65408f0a4804369a14ddc3fd4259a0bcb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/b1</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/b1/4e1eee811f5702723e6d9641b3378ba97d3a74</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/b1/51e93fdbdaef717c65c3527babcccc66dae4ca</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/b5</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/b5/f4e0e99c415e6d13625b941919beeafcefa230</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/b6</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/b6/355a026cbfc99da248024ffb0814b112ecbe29</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/b8</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/b8/eedb3586aed7c44de55e621d283feec52b87b5</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/bf</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/bf/09691ef946d77afe79d8bf99d133dc2dc6ea59</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/ca</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ca/5e6bf5a8fb80ae3829cc78104314f416eb5ed0</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/cd</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/cd/7cf34ffb3b91bd042c11e739dde2c77ab92fda</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/cf</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/cf/baa9e305dd7e36e7ea072f05f2bbbc434909aa</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/d0</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/d0/eaa436747fafd60e690e3cd57c54625396d01e</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/d1</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/d1/a96a8c9e3e15a35b4c5b8b0920b3fc93628975</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/d5</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/d5/3172cd72fac76333cf17dd6beeac1714bc42b9</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/d9</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/d9/d40828e9521e1096699b10ca9483ba6a7d431f</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/e0</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/e0/1de5221247d535a5e7fdb93da4fe16b76cf474</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ea</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ea/2b88de4ec1d9397b317133ab84daf1a31518ea</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/ea/4c6b561de30e1cd2a81b91245050ec03e9bb87</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/ea/89991a23aee436b19609341cc2738f2edacbaf</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/ee</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/ee/84a37891867cf10785aea796b4862063329509</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/f2</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/f2/89f59a235f909bcd103a4388c412811a75c17e</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/f7</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/f7/22baf84df56142ae0f795602a6b5d9d91f7488</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/f7/ddc0054973eb29b466af4a2004ec9d1b85c0e5</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/fc</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/fc/535054b308e41d1373dc3d373a74ec98e0955e</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/objects/fe</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/fe/41d8e2d5d954e811d3f6736825ff30a9b24577</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/fe/d683d15d22a0a4837185df7a2b52a7418a398c</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/info</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/objects/pack</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/objects/pack/pack-85b12bc6d9e5f14f0a5bb91fd9ff43e66c857e6f.idx</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/objects/pack/pack-85b12bc6d9e5f14f0a5bb91fd9ff43e66c857e6f.pack</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/packed-refs</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/refs</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/refs/heads</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.git/refs/heads/master</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.git/refs/remotes</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/refs/remotes/origin</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/refs/remotes/origin/HEAD</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.git/refs/remotes/origin/master</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/.git/refs/tags</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.gitignore</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.idea</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.idea/.name</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.idea/.rakeTasks</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.idea/csair.iml</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.idea/encodings.xml</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.idea/misc.xml</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.idea/modules.xml</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/.idea/scopes</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.idea/scopes/scope_settings.xml</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/.idea/vcs.xml</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/.idea/workspace.xml</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/CODE_OF_CONDUCT.md</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/Gemfile</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/Gemfile.lock</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/LICENSE.txt</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/README.md</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/Rakefile</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/bin</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/bin/console</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/bin/setup</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/csair.gemspec</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/lib</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/lib/cli</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/cli/cmd_interface.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/cli/query.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/lib/csair</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/csair/version.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/lib/csair.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/lib/csair_lib</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/lib/csair_lib/connection.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/csair_lib/dictionary.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/csair_lib/graph.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/lib/csair_lib/metro.rb</path>
+<path action="A" kind="file">/dssntss2/Assignment2.0/csair/lib/csair_lib/reader.rb</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/lib/csair_lib/resources.rb</path>
+<path kind="dir" action="A">/dssntss2/Assignment2.0/csair/resources</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/resources/map_data.json</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/test</path>
+<path action="A" kind="dir">/dssntss2/Assignment2.0/csair/test/graph</path>
+<path kind="file" action="A">/dssntss2/Assignment2.0/csair/test/graph/test_graph.rb</path>
+</paths>
+<msg>Added Assignment 2.0 (CSAir)</msg>
+</logentry>
+<logentry revision="2388">
+<author>dssntss2</author>
+<date>2015-02-21T19:51:11.151976Z</date>
+<paths>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_bishop.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_king.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_knight.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_pawn.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_queen.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_rook.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_bishop.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_king.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_knight.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_pawn.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_queen.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_rook.png</path>
+</paths>
+<msg>Renamed images</msg>
+</logentry>
+<logentry revision="2387">
+<author>dssntss2</author>
+<date>2015-02-21T19:48:43.499218Z</date>
+<paths>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_bishop_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_king_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_knight_500_500_transparent.png</path>
+<path kind="file" action="D">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_pawn_500_500_transparent.png</path>
+<path kind="file" action="D">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_queen_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_rook_500_500_transparent.png</path>
+<path kind="file" action="D">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_bishop_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_king_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_knight_500_500_transparent.png</path>
+<path action="D" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_pawn_500_500_transparent.png</path>
+<path kind="file" action="D">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_queen_500_500_transparent.png</path>
+<path kind="file" action="D">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_rook_500_500_transparent.png</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/gui</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/gui/ViewTest.java</path>
+</paths>
+<msg>Deleted old images</msg>
+</logentry>
+<logentry revision="2386">
+<author>dssntss2</author>
+<date>2015-02-21T19:42:14.021669Z</date>
+<paths>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/gui/View.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Bishop.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Empress.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/King.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Knight.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Pawn.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Piece.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Princess.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Queen.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Rook.java</path>
+</paths>
+<msg>Refactored classes</msg>
+</logentry>
+<logentry revision="2379">
+<author>dssntss2</author>
+<date>2015-02-21T08:27:59.798811Z</date>
+<paths>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/gui/View.java</path>
+</paths>
+<msg>Quick changes</msg>
+</logentry>
+<logentry revision="2378">
+<author>dssntss2</author>
+<date>2015-02-21T08:21:52.060172Z</date>
+<paths>
+<path action="D" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/game</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/gui</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/gui/View.java</path>
+</paths>
+<msg>Updated View to show piece images</msg>
+</logentry>
+<logentry revision="2377">
+<author>dssntss2</author>
+<date>2015-02-21T08:19:12.288339Z</date>
+<paths>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/AlreadyHasPieceException.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/InGameException.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/PieceInPlaceException.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/Board.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/ChessBoard.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/Square.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/BishopMoveSet.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/EmpressMoveSet.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/KingMoveSet.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/KnightMoveSet.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/MoveSet.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/PawnMoveSet.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/PrincessMoveSet.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/QueenMoveSet.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/RookMoveSet.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Bishop.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Empress.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/King.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Knight.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Pawn.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Piece.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Princess.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Queen.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Rook.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/board/BoardTest.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/board/ChessBoardTest.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/BishopTest.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/KnightTest.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/PawnTest.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/PieceTest.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/QueenTest.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/RookTest.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/AllBoardTests.java</path>
+<path action="M" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/RunAllTests.java</path>
+<path kind="file" action="M">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/TraditionalPiecesTests.java</path>
+</paths>
+<msg/>
+</logentry>
+<logentry revision="2154">
+<author>dssntss2</author>
+<date>2015-02-20T06:32:05.679906Z</date>
+<paths>
+<path action="A" kind="dir">/dssntss2/Assignment1.1</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/exception</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/AlreadyHasPieceException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/InGameException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/exception/board/PieceInPlaceException.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/game</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/game/View.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/img</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_bishop_500_500_transparent.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_king_500_500_transparent.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_knight_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_pawn_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_queen_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/black_rook_500_500_transparent.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_bishop_500_500_transparent.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_king_500_500_transparent.png</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_knight_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_pawn_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_queen_500_500_transparent.png</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/img/white_rook_500_500_transparent.png</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/Board.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/ChessBoard.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/board/Square.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/BishopMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/EmpressMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/KingMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/KnightMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/MoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/PawnMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/PrincessMoveSet.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/QueenMoveSet.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/moves/RookMoveSet.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Bishop.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Empress.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/King.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Knight.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Pawn.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Piece.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Princess.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Queen.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/library/piece/Rook.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/board</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/board/BoardTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/board/ChessBoardTest.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/BishopTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/KnightTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/PawnTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/PieceTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/QueenTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/piece/RookTest.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite</path>
+<path action="A" kind="file">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/AllBoardTests.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/RunAllTests.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.1/src/com/cassio/chess/test/suite/TraditionalPiecesTests.java</path>
+</paths>
+<msg>Assignment1.1_submission</msg>
+</logentry>
+<logentry revision="1071">
+<author>dssntss2</author>
+<date>2015-02-12T21:53:42.072527Z</date>
+<paths>
+<path action="A" kind="dir">/dssntss2/Assignment1.0</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/README.md</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.0/src/com/cassio</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com/cassio/chess/exception</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/AlreadyHasPieceException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/BlockingPieceException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/DiagonalMoveException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/HorizontalMoveException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/IllegalChessMoveException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NoPawnCaptureException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NoPieceException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NonDiagonalMoveException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NonKingMoveException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NonKnightMoveExcption.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NonLinearMoveException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/NonQueenMoveException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/PieceColorMoveException.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/SamePieceColorException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/SamePlaceMoveException.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/exception/VerticalMoveException.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com/cassio/chess/library</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/library/board</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/library/board/Board.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/board/ChessBoard.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/board/Square.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Bishop.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/King.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Knight.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Pawn.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Piece.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Queen.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/library/piece/Rook.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com/cassio/chess/test/board</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/board/BoardTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/board/ChessBoardTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/board/SquareTest.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/BishopTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/KingTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/KnightTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/PawnTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/PieceTest.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/QueenTest.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/piece/RookTest.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/suite</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/suite/AllBoardTests.java</path>
+<path kind="file" action="A">/dssntss2/Assignment1.0/src/com/cassio/chess/test/suite/RunAllTests.java</path>
+<path action="A" kind="file">/dssntss2/Assignment1.0/src/com/cassio/chess/test/suite/TraditionalPiecesTests.java</path>
+</paths>
+<msg>Assignment1.0_submission</msg>
+</logentry>
+<logentry revision="450">
+<author>dssntss2</author>
+<date>2015-02-06T00:32:53.358588Z</date>
+<paths>
+<path kind="dir" action="A">/dssntss2/Assignment0</path>
+<path kind="file" action="A">/dssntss2/Assignment0/README.md</path>
+<path action="A" kind="dir">/dssntss2/Assignment0/src</path>
+<path action="A" kind="dir">/dssntss2/Assignment0/src/com</path>
+<path kind="dir" action="A">/dssntss2/Assignment0/src/com/cassioss</path>
+<path kind="dir" action="A">/dssntss2/Assignment0/src/com/cassioss/ip</path>
+<path kind="dir" action="A">/dssntss2/Assignment0/src/com/cassioss/ip/console</path>
+<path action="A" kind="file">/dssntss2/Assignment0/src/com/cassioss/ip/console/IPConsole.java</path>
+<path kind="dir" action="A">/dssntss2/Assignment0/src/com/cassioss/ip/test</path>
+<path action="A" kind="file">/dssntss2/Assignment0/src/com/cassioss/ip/test/IPValidatorTest.java</path>
+<path action="A" kind="dir">/dssntss2/Assignment0/src/com/cassioss/ip/validator</path>
+<path action="A" kind="file">/dssntss2/Assignment0/src/com/cassioss/ip/validator/IPValidator.java</path>
+</paths>
+<msg>Assignment0 Java src files</msg>
+</logentry>
+<logentry revision="40">
+<author>root</author>
+<date>2015-02-04T16:45:15.675755Z</date>
+<paths>
+<path kind="dir" action="A">/dssntss2</path>
+</paths>
+<msg>created directory dssntss2</msg>
+</logentry>
+</log>
