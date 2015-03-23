@@ -12,6 +12,7 @@
         var $revision;
         var $author;
         var $date;
+        var $type;
     
         /**
          * Initializes an object for a file on SVN.
@@ -23,8 +24,9 @@
          * @param $revision
          * @param $author
          * @param $date
+         * @param $type
          */
-        function __construct($path, $kind, $name, $size, $revision, $author, $date)
+        function File($path, $kind, $name, $size, $revision, $author, $date, $type)
         {
             $this->path = $path;
             $this->kind = $kind;
@@ -33,5 +35,6 @@
             $this->revision = $revision;
             $this->author = $author;
             $this->date = $date;
+            $this->type = $type;
         }
     }

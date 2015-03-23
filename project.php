@@ -19,8 +19,9 @@
          * @param $author
          * @param $date
          */
-        function __construct($path, $kind, $name, $size, $revision, $author, $date)
+        function Project($path, $kind, $name, $size, $revision, $author, $date)
         {
-            parent::__construct($path, $kind, $name, $size, $revision, $author, $date);
+            parent::File($path, $kind, $name, $size, $revision, $author, $date);
+            echo $this->path;
         }
     }
