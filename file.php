@@ -1,40 +1,34 @@
 <?php
     
+    require 'template.php';
+    
     /**
      * Identifies a file on SVN.
      */
-    class File
+    class File extends Template
     {
         var $path;
         var $kind;
-        var $name;
         var $size;
-        var $revision;
-        var $author;
-        var $date;
         var $type;
     
         /**
          * Initializes an object for a file on SVN.
          *
-         * @param $path
-         * @param $kind
          * @param $name
-         * @param $size
          * @param $revision
          * @param $author
          * @param $date
+         * @param $message
+         * @param $path
+         * @param $size
          * @param $type
          */
-        function File($path, $kind, $name, $size, $revision, $author, $date, $type)
+        function File($name, $revision, $author, $date, $message, $path, $size, $type)
         {
+            parent::Template($name, $revision, $author, $date, $message);
             $this->path = $path;
-            $this->kind = $kind;
-            $this->name = $name;
             $this->size = $size;
-            $this->revision = $revision;
-            $this->author = $author;
-            $this->date = $date;
             $this->type = $type;
         }
     }

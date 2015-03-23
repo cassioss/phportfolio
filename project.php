@@ -1,27 +1,26 @@
 <?php
     
-    require 'file.php';
+    require 'template.php';
     
     /**
      * Identifies a project on SVN.
      */
-    class Project extends File
+    class Project extends Template
     {
+        var $allFiles;
     
         /**
          * Initializes an object for a project on SVN.
          *
-         * @param $path
-         * @param $kind
          * @param $name
-         * @param $size
          * @param $revision
          * @param $author
          * @param $date
+         * @param $message
          */
-        function Project($path, $kind, $name, $size, $revision, $author, $date)
+        function Project($name, $revision, $author, $date, $message)
         {
-            parent::File($path, $kind, $name, $size, $revision, $author, $date);
-            echo $this->path;
+            parent::Template($name, $revision, $author, $date, $message);
+            $allFiles = array();
         }
     }
