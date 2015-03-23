@@ -10,7 +10,7 @@
         var $author;
         var $date;
         var $message;
-        var $allFiles;
+        var $files;
     
         /**
          * Initializes an object for a project on SVN.
@@ -28,6 +28,6 @@
             $this->author = $author;
             $this->date = $date;
             $this->message = $message;
-            $allFiles = array();
+            $files = array();
         }
     }
