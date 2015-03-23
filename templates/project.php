@@ -1,12 +1,15 @@
 <?php
     
-    require 'template.php';
-    
     /**
      * Identifies a project on SVN.
      */
-    class Project extends Template
+    class Project
     {
+        var $name;
+        var $revision;
+        var $author;
+        var $date;
+        var $message;
         var $allFiles;
     
         /**
@@ -20,7 +23,11 @@
          */
         function __construct($name, $revision, $author, $date, $message)
         {
-            parent::__construct($name, $revision, $author, $date, $message);
+            $this->name = $name;
+            $this->revision = $revision;
+            $this->author = $author;
+            $this->date = $date;
+            $this->message = $message;
             $allFiles = array();
         }
     }

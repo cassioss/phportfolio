@@ -1,6 +1,8 @@
 <?php
 
-include('includes/header.php');
+include 'includes/header.php';
+require 'templates/project.php';
+require 'templates/file.php';
 
 $revisionToMessage = array();
 
@@ -59,7 +61,6 @@ foreach ($list->entry as $entry) {
     if ($kind == 'dir') {
         if (sizeof($relativePathArray) == 1) {
             echo "<hr>Found a project<hr>";
-            require 'templates/project.php';
             $newProject = new Project($name, $revision, $author, $date, $message);
             array_push($allProjects, $newProject);
         }
@@ -67,7 +68,6 @@ foreach ($list->entry as $entry) {
         $path = $originPath . "/" . $relativePath;
         $size = $entry->size;
         $type = "." . end(explode(".", $name));
-        require 'templates/file.php';
         $newFile = new File($name, $revision, $author, $date, $message, $path, $size, $type);
         array_push($allFiles, $newFile);
         echo "<br>$size<br>$type<br>";
