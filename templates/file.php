@@ -13,6 +13,7 @@ class File
     var $path;
     var $size;
     var $type;
+    var $relativePath;
 
     /**
      * Initializes an object for a file on SVN.
@@ -25,8 +26,9 @@ class File
      * @param $path
      * @param $size
      * @param $type
+     * @param $relativePath
      */
-    function __construct($name, $revision, $author, $date, $message, $path, $size, $type)
+    function __construct($name, $revision, $author, $date, $message, $path, $size, $type, $relativePath)
     {
         $this->name = $name;
         $this->revision = $revision;
@@ -36,5 +38,6 @@ class File
         $this->path = $path;
         $this->size = $size;
         $this->type = $type;
+        $this->relativePath = $relativePath;
     }
 }

@@ -28,6 +28,6 @@
             $this->author = $author;
             $this->date = $date;
             $this->message = $message;
-            $files = array();
+            $this->files = array();
         }
     }

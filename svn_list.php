@@ -49,12 +49,9 @@
         $strRevision = (string)$revision;
         $message = $revisionToMessage[$strRevision];
     
-        //echo "$name<br>$revision<br>$author<br>$date<br>$message";
-    
         $kind = $entry['kind'];
         if ($kind == 'dir') {
             if (sizeof($relativePathArray) == 1) {
-                //echo "<hr>Found a project<hr>";
                 $newProject = new Project($name, $revision, $author, $date, $message);
                 array_push($allProjects, $newProject);
             }
@@ -62,19 +59,17 @@
             $path = $originPath . "/" . $relativePath;
             $size = $entry->size;
             $type = "." . end(explode(".", $name));
-            $newFile = new File($name, $revision, $author, $date, $message, $path, $size, $type);
+            $newFile = new File($name, $revision, $author, $date, $message, $path, $size, $type, $relativePath);
             array_push($allFiles, $newFile);
-            //echo "<br>$size<br>$type<br>";
-            //echo linkToURL($path);
         }
-        //echo "<br><br>";
     
     }
     
     foreach($allFiles as $sampleFile){
         $pathAsArray = explode("/", $sampleFile->path);
-        foreach($allProjects as $sampleProject){
-            if($sampleProject->name == $pathAsArray[6])
-                array_push($sampleProject->files, $sampleFile);
+        foreach($allProjects as $project){
+            if($project->name == $pathAsArray[6]){
+                array_push($project->files, $sampleFile);
+            }
         }
     }
