@@ -32,3 +32,6 @@
             $this->type = $type;
         }
     }
+
+    $abc = new File("a", "b", "c", "d", "e", "f", "g", "h");
+    echo $abc->name;

@@ -18,9 +18,9 @@
          * @param $date
          * @param $message
          */
-        function Project($name, $revision, $author, $date, $message)
+        function __construct($name, $revision, $author, $date, $message)
         {
-            parent::Template($name, $revision, $author, $date, $message);
+            parent::__construct($name, $revision, $author, $date, $message);
             $allFiles = array();
         }
     }

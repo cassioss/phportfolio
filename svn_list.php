@@ -60,15 +60,15 @@
         if($kind == 'dir'){
             if(sizeof($relativePathArray) == 1){
                 echo "<hr>Found a project<hr>";
-                //$newProject = new Project($name, $revision, $author, $date, $message);
-                //array_push($allProjects, $newProject);
+                $newProject = new Project($name, $revision, $author, $date, $message);
+                array_push($allProjects, $newProject);
             }
         } else {
             $path = $originPath . "/" . $relativePath;
             $size = $entry->size;
             $type = "." . end(explode(".", $name));
-            //$newFile = new File($name, $revision, $author, $date, $message, $path, $size, $type);
-            //array_push($allFiles, $newFile);
+            $newFile = new File($name, $revision, $author, $date, $message, $path, $size, $type);
+            array_push($allFiles, $newFile);
             echo "<br>$size<br>$type<br>";
             echo linkToURL($path);
         }
