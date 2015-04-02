@@ -65,6 +65,7 @@
     
     }
     
+    // Adds every file to its corresponding project
     foreach($allFiles as $sampleFile){
         $pathAsArray = explode("/", $sampleFile->path);
         foreach($allProjects as $project){

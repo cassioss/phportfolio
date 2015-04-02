@@ -64,4 +64,6 @@ function saveLogAndListFiles($netID, $semester)
 }
 
 // Final function that creates log and list files
+echo "Update successful!";
 saveLogAndListFiles('dssntss2', 'sp15');
+echo "Update successful!2";
